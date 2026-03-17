@@ -1,0 +1,22 @@
+# Jekyll configuration
+title: Apex Clinical Growth Partners
+description: Apex Clinical Growth Partners helps local service operators scale qualified pipeline with accountable digital marketing.
+url: ""
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
